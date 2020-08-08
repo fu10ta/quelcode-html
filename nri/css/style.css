@@ -395,7 +395,7 @@ footer small{
     font-size:10px;
     font-weight: 400;
     line-height:19px;
-    color:#333;
+    color:#999;
 }
 
 .relation-nav-grid a{
@@ -437,4 +437,9 @@ footer small{
     content:"<";
     color: #999;
     width:20px;
+}
+
+.relation-nav-grid a:hover{
+    background-color:#f4f4f4;
+    transition:.8s;
 }
