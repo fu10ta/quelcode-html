@@ -204,6 +204,7 @@ main{
     display: flex;
     justify-content: space-between;
     color:#0c419a;
+    margin-bottom: 40px;
 }
 
 .main-nav a:hover{
@@ -240,6 +241,10 @@ main{
     background-color:#fff;
     border:1px #ccc solid;
     line-height:100%;
+    vertical-align: middle;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 
@@ -339,7 +344,7 @@ main{
     color:#333;
 }
 
-.sitemap > ul > div{
+.sitemap > ul > div > li > a{
     font-size:16px;
     font-weight: 700;
     line-height:24px;
@@ -361,7 +366,7 @@ main{
 }
 
 .sitemap-grid li:hover,
-.sitemap > ul > div:hover,
+.sitemap > ul > div > li:hover,
 .sitemap > ul > li > a:hover{
     text-decoration: underline;
 }
@@ -407,7 +412,7 @@ footer small{
 .sitemap a::before{
     content:">";
     color: #999;
-    width:20px;
+    width:5px;
 }
 
 .relation-nav-grid a::before{
