@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
     <title>HTMLCSS - HOME</title>
 </head>
 <body>
@@ -12,7 +13,7 @@
         </div>
         <nav class="global-nav">
             <ul>
-                <li>HOME</li>
+                <li><span>HOME</span></li>
                 <li><a href="news.html">NEWS</a></li>
                 <li><a href="recruit.html">RECRUIT</a></li>
                 <li><a href="contact.html">CONTACT</a></li>
@@ -39,9 +40,18 @@
         <div class="news-wrapper">
             <h3>NEWS</h3>
             <ul>
-                <li><a href="#"><img src="images/news01.png" alt="アームストロングのカウチ">アームストロングのカウチ入荷</a></li>
-                <li><a href="#"><img src="images/news02.png" alt="アームストロングのチェア">アームストロングのチェア再入荷</a></li>
-                <li><a href="#"><img src="images/news03.png" alt="アームストロングのテーブル">アームストロングのテーブル入荷</a></li>
+                <li>
+                    <a href="#"><img src="images/news01.png" alt="アームストロングのカウチ"></a>
+                    <p>アームストロングのカウチ入荷</p>
+                </li>
+                <li>
+                    <a href="#"><img src="images/news02.png" alt="アームストロングのチェア"></a>
+                    <p>アームストロングのチェア再入荷</p>
+                </li>
+                <li>
+                    <a href="#"><img src="images/news03.png" alt="アームストロングのテーブル"></a>
+                    <p>アームストロングのテーブル入荷</p>
+                </li>
             </ul>
             <a href="news.html">view more ></a>
         </div>
@@ -68,16 +78,18 @@
         </div>
     </main>
     <footer>
-        <img src="images/logo_footer.png" alt="htmlcss企業ロゴ">
-        <nav footer-nav>
-            <ul>
-                <li><a href="index.html">HOME</a></li>
-                <li><a href="news.html">NEWS</a></li>
-                <li><a href="recruit.html">RECRUIT</a></li>
-                <li><a href="contact.html">CONTACT</a></li>
-            </ul>
-        </nav>
-        <small>&copy;HTMLCSS.code<small>
+        <div class="footer-item">
+            <img src="images/logo_footer.png" alt="htmlcss企業ロゴ">
+            <nav class="footer-nav">
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="news.html">NEWS</a></li>
+                    <li><a href="recruit.html">RECRUIT</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </nav>
+        </div>
+        <p>&copy;HTMLCSS.code</p>
     </footer>
 </body>
 </html>
