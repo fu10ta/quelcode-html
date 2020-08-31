@@ -413,6 +413,7 @@ footer small{
     content:">";
     color: #999;
     width:5px;
+    margin-right: 10px;
 }
 
 .relation-nav-grid a::before{
@@ -447,4 +448,8 @@ footer small{
 .relation-nav-grid a:hover{
     background-color:#f4f4f4;
     transition:.8s;
+}
+
+div.sitemap-grid li:nth-child(1){
+    margin-top: 0;
 }
